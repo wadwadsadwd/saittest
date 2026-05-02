@@ -1,0 +1,213 @@
+body{
+margin: 0px;
+}
+.menu{
+    text-align: center;
+    position:fixed;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.9;
+    top: 0;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    padding: 15px 20px;
+}
+.menu a:hover{
+    background-color: lightgray;
+}
+.photo{
+    background-image: url(polygons.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 200px 0px;
+    margin-top: 50px;
+    width: 100%;
+}
+.photo a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.photo p{
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+#text{
+    text-align: center;
+    margin-top: 80px;
+}
+#text p{
+    text-align: left;
+}
+#text img{
+    float: right;
+    width: 400px;
+    margin: 30px;
+    margin-top: 0;
+}
+#text{
+    width: 80%;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+#text h1{
+    text-align: center;
+}
+#text p{
+    text-align: justify;
+
+}
+#team{
+    text-align: center;
+}
+.member{
+    width: 300px;
+    display: inline-block;
+    border: 1px gray solid;
+    text-align: left;
+    margin: 10px;
+    border-color: grey;
+    padding: 20px;
+    box-shadow: 0px 3px 8px 1px gray;
+}
+.member img{
+    width: 100%;
+}
+#team a{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(5, 91, 115);
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+.pop{
+    opacity: 0.7;
+}
+#pay{
+    background-color: dimgray;
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+.baz{
+    display: inline-block;
+    background-color: white;
+    list-style: none;
+    margin: 10px 10px;
+    padding: 0;
+    width: 30%;
+    min-width: 300px;
+    color: black;
+    vertical-align: middle;
+}
+.baz a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 0;
+    background-color: black;
+    border-radius: 15px;
+    width: 20%;
+}
+.baz li{
+    padding: 14px 0;
+    border-bottom: 1px lightgray solid;
+}
+.baz .real{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.baz .pro{
+    background-color:rgb(5, 91, 115);
+    color: white;
+    padding: 30px; 
+}
+#contac h1{
+    text-align: center;
+}
+.baz li:last-child{
+    background-color: #f1f1f1;
+}
+
+#contac .textt{
+    text-align: center;
+    margin-left: 0px;
+}
+#contac input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+#contac{
+    background-color: #f1f1f1;
+    padding: 40px 80px;
+}
+#contac .dsa{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 15%;
+    text-align: center;
+    margin: 20px auto;
+    
+    
+}
+.baz .jir{
+    font-size: 25px;
+    font-weight: bold;
+}
+.baz .bled{
+    opacity: 0.7;
+}
+.pravo{
+    background-color: black;
+    color: white;
+}
+#contac .qwe{
+    background-image: url(address.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 18px 18px ;
+}
+#contac .ewq{
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 18px 18px ;
+}
+#contac .rew{
+    background-image: url(mail.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 18px 18px ;
+}
+#contac p{
+    margin-left: 60px;
+}
+span{
+    font-weight: bold;
+}
+@media(max-width: 600px){
+    .menu{
+        position: absolute;
+    }
+   
+
+}
